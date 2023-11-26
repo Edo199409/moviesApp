@@ -1,0 +1,34 @@
+.trendContainer{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.trendTitle{
+    color: #F1F1F1;
+    font-size: 28px
+}
+.movieList{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: '100%';
+    overflow-x: scroll;
+}
+.image{
+    width: 12%;
+    height: 100%;
+    margin-right: 0.5%;
+    align-self: flex-start;
+}
+.movieList::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .movieList {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+  }
